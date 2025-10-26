@@ -42,5 +42,5 @@ class User4 {
 
 const eddie = new User4('Eddie', 21);
 
-eddie.hobbies = []; // you can't reassign readonly object
+// eddie.hobbies = []; // you can't reassign readonly object
 eddie.hobbies.push('new hobby'); // but this works
